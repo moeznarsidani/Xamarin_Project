@@ -23,8 +23,7 @@ namespace Final_Project
             SetContentView(Resource.Layout.ListActivity);
 
             SupportActionBar ab = SupportActionBar;
-            //  ab.SetHomeAsUpIndicator(Resource.Drawable.ic_menu);
-            ab.SetDisplayShowHomeEnabled(true);
+             ab.SetDisplayShowHomeEnabled(true);
             ab.SetDisplayHomeAsUpEnabled(true);
             mListView = FindViewById<ListView>(Resource.Id.mylview);
 
